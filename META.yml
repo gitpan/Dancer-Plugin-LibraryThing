@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Dancer-Plugin-LibraryThing
-version:            0.0001
+version:            0.0002
 abstract:           Plugin for LibraryThing APIs.
 author:
     - Stefan Hornburg (Racke) <racke@linuxia.de>
@@ -11,6 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    Dancer:               0
     Test::More:           0
     WWW::LibraryThing::Covers:  0
 no_index:
